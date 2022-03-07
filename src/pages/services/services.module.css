@@ -1,0 +1,156 @@
+.services > *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #232325;
+}
+
+.services > .container{
+    margin: 0;
+    padding: 7.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services > .container > .left_side{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.services > .container > .left_side > .skills_card{
+    width: 30vw;
+    height: fit-content;
+    margin: 0;
+    padding: 5%;
+    background-color: #2D2E32;
+    border-radius: 8px;
+    transition: box-shadow, .5s, margin .5s;
+    margin-top: 3%;
+    z-index: 2;
+}
+
+.services > .container > .left_side > .skills_card:hover{
+    z-index: 1;
+    box-shadow: 0px 20px 40px rgb(26, 25, 25);
+}
+
+.services > .container > .left_side > .skills_card > .title_desc_icon{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.services > .container > .left_side > .skills_card > .title_desc_icon > .title_desc > .title{
+    margin: 0;
+    padding: 0;
+    color: rgb(104, 240, 160);
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.services > .container > .left_side > .skills_card > .title_desc_icon > .title_desc > .desc{
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+    color: rgb(153, 153, 153);
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+
+.services > .container > .left_side > .skills_card > .title_desc_icon > .icon{
+    margin: 0;
+    padding: 0;
+    color: rgb(104, 240, 160);
+    font-size: larger;
+}
+
+.services > .container > .left_side > .skills_card > .project_done{
+    margin: 0;
+    padding: 0;
+    margin-top: 4%;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    color: white;
+}
+
+
+.services > .container > .right_side{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.services > .container > .right_side > p{
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(153, 153, 153);
+    font-weight: normal;
+}
+.services > .container > .right_side > h1{
+    margin: 0;
+    padding: 0;
+    margin-top: 8%;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-weight: normal;
+}
+
+.services > .container > .right_side > h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.services > .container > .right_side > .desc{
+    margin: 0;
+    padding: 0;
+    margin-top: 8%;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(153, 153, 153);
+    font-weight: normal;
+    line-height: auto;
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 1253px) {
+    .services > .container{
+        display: block;
+    }
+
+    .services > .container > .left_side {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
+    .services > .container > .left_side > .skills_card {
+        width: 62.5vw;
+    }
+
+    .services > .container > .right_side {
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 85%;
+    }
+
+    .services > .container > .right_side > .desc{
+        text-align:justify;
+    }
+}

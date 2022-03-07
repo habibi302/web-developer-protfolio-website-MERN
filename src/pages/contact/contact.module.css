@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2D2E32;
+}
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    padding-top: 6%;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.left_side > .top_side > h1{
+    margin: 0;
+    padding-bottom: 10%;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-weight: normal;
+}
+
+.left_side > .top_side > h1 > span{
+    color: rgb(104, 240, 160);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.left_side > .bottom_side{
+    margin: 0;
+    padding: 0;
+    margin-top: 7%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.brand_name > .first_part{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: small;
+    transition: color .5s, text-shadow .5s;
+}
+
+.brand_name > .last_part{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight:lighter;
+    transition: color .5s, text-shadow .5s;
+    margin-left: 2px;
+}
+
+.brand_name:hover{
+    text-shadow: .5px .5px 1.5px rgb(104, 240, 160);
+}
+
+.bottom_side > .copyright{
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(153, 153, 153);
+}
+
+
+
+.right_side{
+    margin: 0;
+    padding: 0;
+}
+
+.right_side > .top_side > p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: small;
+    color: rgb(153, 153, 153);
+}
+
+.right_side > .top_side > h4{
+    margin: 0;
+    padding: 0;
+    padding-top: 10%;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: small;
+    color: rgb(153, 153, 153);  
+}
+
+.right_side > .top_side > h2{
+    margin: 0;
+    padding: 0;
+    padding-top: 4%;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: large;
+    font-weight: normal;
+    color: white;  
+}
+
+.right_side > .middle_side{
+    margin: 0;
+    padding: 0;
+}
+
+.right_side > .middle_side > ol{
+    margin: 0;
+    padding: 0;
+    padding-top: 15%;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: smaller;
+    color: white;  
+}
+
+.right_side > .middle_side > ol > li{
+    padding-top: 5.4%;
+}
+
+.right_side > .bottom_side {
+    margin: 0;
+    padding: 0;
+    padding-right: 40%;
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.icon{
+    color: white;
+}
+
+
+@media screen and (max-width: 1253px) {
+    .container{
+        display: block;
+        text-align: center;
+    }
+
+    .container > .left_side > .bottom_side{
+        display: block;
+        margin: 0;
+    }
+
+    .right_side > .bottom_side{
+        padding: 0;
+        justify-content: space-evenly;
+        margin-right: 35%;
+        margin-left: 35%;
+        margin-top: 20%;
+    }
+
+
+}

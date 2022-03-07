@@ -1,0 +1,60 @@
+.works > *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #232325;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+}
+
+.left{
+    padding: 3%;
+}
+
+.right{
+    padding: 3%;
+}
+
+.left > h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 500;
+    font-weight: normal;
+    text-align: center;
+}
+
+.left > p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16%;
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.left > .all_projects{
+    margin: 0;
+    padding: 0;
+    padding-top: 10%;
+    color: rgb(104, 240, 160);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+
+@media screen and (max-width: 1253px) {
+    .container{
+        display: block;
+    }
+}

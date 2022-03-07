@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+*>.home_page{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2D2E32;
+}
+
+.home_page>.container{
+    display: flex;
+    justify-content:space-between;
+    justify-items: center;
+    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.left_side {
+    min-width: fit-content;
+    padding-left: 7.5vw;
+}
+
+.left_side > .my_title{
+    margin: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(104, 240, 160);
+    color: #2D2E32;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    max-width: fit-content;
+}
+
+.left_side > .my_slogan{
+    margin: 0;
+    padding: 0;
+    margin-top: 4vh;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size:3rem;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+.left_side > .my_desc{
+    margin: 0;
+    padding: 0;
+    margin-top: 4vh;
+    color: rgb(156, 156, 156);
+    font-family: 'Share Tech Mono', monospace;
+    white-space: nowrap;
+}
+
+.left_side > .chat_with_me{
+    margin: 0;
+    padding: 0;
+    padding-top: 8vh;
+    color: rgb(104, 240, 160);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight:normal;
+    text-decoration: underline;
+}
+
+
+.left_side > .works_and_experiences{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: -7.5vw;
+    padding-top: 16vh;
+    padding-bottom: 4%;
+}
+
+
+.left_side > .works_and_experiences > .experiences{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left_side > .works_and_experiences > .experiences > h1{
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-right: 1rem;
+    height: fit-content;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.left_side > .works_and_experiences > .experiences > p{
+    padding: 0;
+    margin: 0;
+    color: rgb(153, 153, 153);
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight:normal;
+    font-size:small;
+}
+
+
+
+
+.left_side > .works_and_experiences > .works{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left_side > .works_and_experiences > .works > h1{
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-right: 1rem;
+    height: fit-content;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.left_side > .works_and_experiences > .works > p{
+    padding: 0;
+    margin: 0;
+    color: rgb(153, 153, 153);
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight:normal;
+    font-size:small;
+}
+
+
+
+
+.right_side{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: max-content;
+    width: max-content;
+}
+
+.right_side > .circle{
+    height: 40vw;
+    width: 40vw;
+    border-radius: 100%;
+    background-color: rgb(43, 43, 43);
+    margin-right: 7.5vw;
+}
+
+.right_side > .node_js{
+    height: 7vw;
+    width: 7vw;
+    border-radius: 100%;
+    background-color: rgb(29, 29, 29);
+    position:absolute;
+    top: 7%;
+    left: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.right_side > .node_js > .node_js_icon{
+    height: 5vw;
+    width: 5vw;
+    position:absolute;
+    color: rgb(104, 240, 160);
+    top: 13%;
+}
+
+.right_side > .react_js{
+    height: 9vw;
+    width: 9vw;
+    border-radius: 100%;
+    background-color: rgb(29, 29, 29);
+    position:absolute;
+    top: 15%;
+    right: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.right_side > .react_js > .react_js_icon{
+    height: 7vw;
+    width: 7vw;
+    position:absolute;
+    color: rgb(85, 170, 250);
+    top: 11%;
+}
+
+
+.right_side > .dot{
+    height: .5vw;
+    width: .5vw;
+    border-radius: 100%;
+    background-color: rgb(104, 240, 160);
+    position:absolute;
+    bottom: 40%;
+    right: 5%;
+}
+
+
+
+.right_side > .my_photo{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+
+
+@media screen and (max-width: 1253px) {
+    .home_page>.container{
+        display: block;
+    }
+
+    .right_side{
+        margin-top: 7.8vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right_side> .circle{
+        height: 50vw;
+        width: 50vw;
+        margin-right: 0;
+    }
+
+    .right_side > .node_js{
+        top: 10%;
+    }
+
+    .right_side > .react_js{
+        right: 0%;
+    }
+
+    .right_side > .dot{
+        right: -10%;
+    }
+    
+
+    .left_side > .my_title{
+        margin: auto;
+    }
+
+    .chat_with_me{
+        text-align: center;
+    }
+
+    .my_slogan{
+        text-align: center;
+    }
+
+    .my_desc{
+        text-align: center;
+    }
+
+    .left_side{
+        padding-left: 0;
+    }
+
+    .left_side > .works_and_experiences{
+        margin: auto;
+        padding-top: 8vh;
+    }
+}
+
+
+@media  screen and (max-width: 780px ) {
+
+    .right_side > .circle{
+        height: 70vw;
+        width: 70vw;
+    }
+
+    .right_side > .node_js{
+        top: 13%;
+    }
+
+    .right_side > .react_js {
+        right: 5%;
+    }
+
+    .right_side > .dot{
+        right: -10%;
+    }
+
+    .left_side{
+        padding-left: 0;
+    }
+    
+}
+
